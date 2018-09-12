@@ -38,11 +38,19 @@ Es necesario ya tener instalado las herramientas como Python junto con sus libre
 > 
 	1. Introducir el código main.py en el ESP-01 a través de la libreria ampy de Python.
 	2. Cargar controldinamixeles.ino en el Arduino Mega 2560
-	3. Hacer la conexión de los distintos materiales tal y como se muestra en el esquemático de conexión.
+	3. Hacer la conexión de los distintos materiales tal y como se muestra en el esquemático de conexión que se muestra abajo.
 	4. Conectar el mando de PS4 a la computadora.
 	5. Ejecutar el codigo local de la PC, encontrado como controlpc.py.
 	6. Encender el arduino ya sea con una bateria de LiPo o con alguna otra fuente.
 	7. Esperar conexion y comenzar a manejar
+	
+### Diagrama de Conexión 
+ 
+En el el siguiente diagrama se explica las conexciones entre el modulo ESP01 y el arduino mega, utilizado para este proyecto. 
+
+![Imagen Arduino ESP01](https://github.com/FunPythonEC/Futbol_soccer/blob/master/BaseMovilTelecomunicado/Imagenes/diagramaEquematicoConexiones.jpeg
+)
+
 
 ### Citas y referencias
 
