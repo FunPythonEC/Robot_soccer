@@ -15,11 +15,11 @@ El proyecto basicamente trata sobre el manejo de una Base Movil orientada al uso
 ### Códigos
 El proyecto consiste esta formado con los siguientes códigos:
 
-* Python "Nombre codigo" (código de computadora)
+* Python controlpc.py (código de computadora)
 	* Se encarga de recibir los datos de un JoyStick de mando PS4 para el movimiento de los motores de la Base Móvil, el mando a utilizar puede ser otro, mientras la computadora lo reconozca. Usa la libreria de PyGame para poder obtener los datos de los JoySticks y poder despues mandarlos por un objeto socket vía WiFi al ESP-01.
-* MicroPython "Nombre" (código en ESP-01)
+* MicroPython main.py (código en ESP-01)
 	* La versión de MicroPython usada en este caso es 1.8.7. Este código se encarga del recibimiento de datos por WiFi y el envio del dato por UART al Arduino.
-* Arduino "Nombre" (código en Arduino)
+* Arduino manejodinamixeles.ino (código en Arduino)
 	* Se encarga de recibir los movimiento para los motores Dinamixeles por UART y el manejo de los mismos. Se usa la libreria de Dinamixel.
 
 Para la estructura de la Base Móvil, se usaron Legos debido a que estos son intuitivos y fácil de usar para realizar prototipos, en el caso de querer replicar el mismo proyecto, aquello puede darse a gusto de cada persona.
