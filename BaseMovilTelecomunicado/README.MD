@@ -30,5 +30,21 @@ Para la estructura de la Base Móvil, se usaron Legos debido a que estos son int
 
 ![diagrama general de conexiones](https://github.com/FunPythonEC/Futbol_soccer/blob/master/BaseMovilTelecomunicado/Imagenes/diagramaBaseMovil.png)
 
+
+### Pasos
+Es necesario ya tener instalado las herramientas como Python junto con sus librerias esptool y ampy.
+
+* Introducción de códigos (los codigos se pueden encontrar en la carpeta Codigos)
+> 
+	1. Introducir el código main.py en el ESP-01 a través de la libreria ampy de Python.
+	2. Cargar controldinamixeles.ino en el Arduino Mega 2560
+	3. Hacer la conexión de los distintos materiales tal y como se muestra en el esquemático de conexión.
+	4. Conectar el mando de PS4 a la computadora.
+	5. Ejecutar el codigo local de la PC, encontrado como controlpc.py.
+	6. Encender el arduino ya sea con una bateria de LiPo o con alguna otra fuente.
+	7. Esperar conexion y comenzar a manejar
+
+### Citas y referencias
+
 ## Licencia
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional</a>.
